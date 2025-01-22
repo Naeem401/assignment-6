@@ -23,7 +23,7 @@ image: card1,
 ]
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto py-8">
         {
             cards.map((card, index) => (
                 <SingelCard key={index} card={card} />
