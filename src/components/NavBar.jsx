@@ -20,7 +20,7 @@ const NavBar = () => {
 
         {/* Buttons */}
         <div className="hidden md:flex space-x-4">
-          <button className="bg-cyan-500 text-white px-4 py-2 rounded-full hover:bg-cyan-600">
+          <button className="bg-cyan-500  px-4 text-[#002228] -2 rounded-full hover:bg-cyan-600">
             Book a Demo
           </button>
           <button className="border border-white px-4 py-2 rounded-full hover:bg-gray-700">
@@ -82,7 +82,7 @@ const NavBar = () => {
           <li className="hover:text-gray-400 cursor-pointer">Solutions</li>
         </ul>
         <div className="mt-4 flex flex-col space-y-2 px-6">
-          <button className="bg-cyan-500 text-white px-4 py-2 rounded-lg hover:bg-cyan-600">
+          <button className="bg-cyan-500 text-[#002228] px-4 py-2 rounded-lg hover:bg-cyan-600">
             Book a Demo
           </button>
           <button className="border border-white px-4 py-2 rounded-lg hover:bg-gray-700">
