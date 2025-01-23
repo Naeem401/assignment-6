@@ -12,18 +12,18 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li className="hover:text-gray-400 cursor-pointer">About Us</li>
-          <li className="hover:text-gray-400 cursor-pointer">Pricing</li>
-          <li className="hover:text-gray-400 cursor-pointer">Customers</li>
-          <li className="hover:text-gray-400 cursor-pointer">Solutions</li>
+          <li className="hover:text-[#0FF1F6] cursor-pointer">About Us</li>
+          <li className="hover:text-[#0FF1F6] cursor-pointer">Pricing</li>
+          <li className="hover:text-[#0FF1F6] cursor-pointer">Customers</li>
+          <li className="hover:text-[#0FF1F6] cursor-pointer">Solutions</li>
         </ul>
 
         {/* Buttons */}
         <div className="hidden md:flex space-x-4">
-          <button className="bg-cyan-500  px-4 text-[#002228] -2 rounded-full hover:bg-cyan-600">
+          <button className="bg-[#0FF1F6]  px-4 text-[#002228] -2 rounded-full hover:bg-transparent hover:text-white hover:border-white border">
             Book a Demo
           </button>
-          <button className="border border-white px-4 py-2 rounded-full hover:bg-gray-700">
+          <button className="border border-white px-4 py-2 rounded-full hover:bg-[#0FF1F6] hover:text-[#002228]">
             Contact Us
           </button>
         </div>

@@ -1,10 +1,11 @@
-import React from 'react'
+
 import Banner from './Banner'
 import Sponser from './Sponser'
 import Card from './Card'
 import MidBanner from './MidBanner'
 import Testimonials from './Testimonials'
 import Overvew from './Overvew'
+import GetStarted from './GetStarted'
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
         <MidBanner/>
         <Testimonials/>
         <Overvew/>
+        <GetStarted/>
     </div>
   )
 }
