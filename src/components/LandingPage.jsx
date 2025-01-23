@@ -4,6 +4,7 @@ import Sponser from './Sponser'
 import Card from './Card'
 import MidBanner from './MidBanner'
 import Testimonials from './Testimonials'
+import Overvew from './Overvew'
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <Card/>
         <MidBanner/>
         <Testimonials/>
+        <Overvew/>
     </div>
   )
 }

@@ -29,7 +29,7 @@ const Testimonials = () => {
     ];  
 
     return (  
-        <section className="my-20">  
+        <section>  
             <Swiper  
                 navigation={true}   
                 modules={[Navigation]}   // Make sure you import Navigation properly  
@@ -38,7 +38,7 @@ const Testimonials = () => {
                 {  
                     reviews.map((review, index) => (  
                         <SwiperSlide key={index}>  
-                            <div className="flex flex-col items-center my-16 max-w-[920px] mx-auto"> 
+                            <div className="flex flex-col items-center my-8 md:my-16 max-w-[920px] mx-auto"> 
                                 <p className="p-4 rounded-full bg-[#14BCB2] bg-opacity-25 text-[#14BCB2] text-2xl">{review.img} </p>
                                 <p className="py-8 px-10 text-[24px] md:text-[32px] font-light text-[#FFFFFF]">{review.review}</p>  
                                 <h3 className="text-2xl font-semibold text-[#0FF1F6]">{review.name}</h3>  
